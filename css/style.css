@@ -1,0 +1,174 @@
+#main{
+	background-image: url('../bg.jpg');
+	background-size:     cover;                      
+    background-repeat:   no-repeat;
+    background-position: center center;
+    min-height:498px;
+}
+
+
+body{
+	font-family: 'Blinker', sans-serif;
+}
+
+.full{
+ 	padding-right: 15px;
+ 	padding-left: 15px;
+  	 margin-right: auto;
+  	 margin-left: auto;
+ 	width: 1120px;
+    display: flex;
+}
+.margin-top-5{
+    margin-top: 15px;
+}
+.bg-trans{
+    background-color: #0000008f;
+    margin-top: 150px;
+}
+.half{
+	width: 50%;
+	padding: 2px 0px;
+}
+
+.center{
+	margin: auto;
+}
+
+.auth-wrapper{
+	
+    padding: 5px 15px;
+    border-left: 5px solid white;
+    margin-top: 40px;
+}
+
+.form-title{
+	font-size: 25px;
+    text-align: center;
+    padding: 5px;
+    color: aliceblue;
+}
+
+.form-class{
+	background: #0000008f;
+    padding: 10px;
+    border-radius: 10px;
+
+}
+.form-input label{
+	display: grid;
+	color: white;
+}
+
+.intro-box{
+       padding: 10px 64px;
+    margin: 75px 40px;
+
+}
+.intro-box img{
+    width: 245px;
+}
+
+.intro-box h1{
+    text-align: center;
+    font-size: 35px;
+    color: #00aeef;
+    margin: 0px;
+}
+
+.form-input{
+	padding: 10px 5px;
+}
+
+.a-button{
+    width: 80px;
+    background: cyan;
+    padding: 5px 10px;
+    border: none;
+    color: black;
+    line-height: 1.6;
+    border-radius: 15px;
+}
+.a-button:focus{
+	outline: none;
+}
+.a-button:hover{
+	cursor: pointer;
+    background-color: #c143ad;
+}
+
+.b-button{
+    width: 80px;
+    background: #01589c;
+    padding: 5px 10px;
+    border: none;
+    color: blanchedalmond;
+    line-height: 1.6;
+    border-radius: 15px;
+}
+.b-button:focus{
+	outline: none;
+}
+.b-button:hover{
+	cursor: pointer;
+    background-color: #ad143c;
+}
+.form-input input{
+    padding: 7px;
+    width: auto;
+    border: none;
+    border-radius: 2px;
+}
+
+.form-input input:focus{
+	border: 1px solid #15f7ff;
+    background-color: black;
+    color: white;
+}
+textarea:focus{
+    border: 1px solid #15f7ff;
+    background-color: black;
+    color: white;
+}
+
+.form-input a{
+	text-decoration: none;
+    color: cyan;
+    float: right;
+}
+
+#signup{
+	display: none;
+}
+.left{
+    float: left !important;
+}
+.right{
+    float: right;
+
+}
+.full-width{
+    width: 100%;
+}
+
+.col-4{
+    width: 40%;
+}
+.col-3{
+    width: 30%;
+}
+.col-2{
+    width: 50%;
+}
+.col-8{
+    width: 60%;
+}
+.portfolio{
+    padding: 20px;
+}
+.bottom{    padding: 0px 10px;
+    background: #000000bf;
+    margin-top: 20px;
+    color: aliceblue;
+    text-align: center;
+}
